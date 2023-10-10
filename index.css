@@ -1,3 +1,46 @@
 body {
-background-image: ;
+background: url("cover.png")no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: grid;
+}
+
+.buttonout {
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 56px;
+font-family: "futura-pt", sans-serif;
+font-weight: 600;
+
+margin-top: 50vh;
+--s: 50px; /* the size on the corner */
+--t: 5px;  /* the thickness of the border */
+--g: 20px; /* the gap between the border and image */
+
+padding: calc(var(--g) + var(--t));
+outline: var(--t) solid black; /* the color here */
+outline-offset: calc(-1*var(--t));
+-webkit-mask:
+  conic-gradient(at var(--s) var(--s),#0000 75%,#000 0)
+  0 0/calc(100% - var(--s)) calc(100% - var(--s)),
+  linear-gradient(#000 0 0) content-box;
+transition: .4s;
+cursor: pointer;
+}
+.button:hover {
+outline-offset: calc(var(--g)/-1);
 }
