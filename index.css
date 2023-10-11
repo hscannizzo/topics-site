@@ -5,22 +5,16 @@ background: url("cover.png")no-repeat center center fixed;
 -o-background-size: cover;
 background-size: cover;
 display: grid;
+z-index: -1;
+
 }
-.background-video {
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-  }
 
 .buttonout {
 display:flex;
 justify-content: center;
 align-items: center;
-
+z-index: 1;
+margin-top: 10vh;
 }
 
 .button {
@@ -52,4 +46,16 @@ cursor: pointer;
 }
 .button:hover {
 outline-offset: calc(var(--g)/-1);
+}
+.sticker {
+  display:fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  margin-top: -60vh;
+  margin-left: 10vw;
+}
+
+.sticker:hover {
+  display: none;
 }
