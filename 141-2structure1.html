@@ -15,7 +15,33 @@
         div.style.display = "block";
         div = document.getElementById('photo1');
         div.style.display = "none"; 
-    }</script>
+        div = document.getElementById('arrow1');
+        div.style.display = "none"; 
+        div = document.getElementById('arrow2');
+        div.style.display = "block"; 
+      }
+        function showDiv2() {
+        div = document.getElementById('tow2');
+        div.style.display = "block";
+        div = document.getElementById('photo2');
+        div.style.display = "none"; 
+        div = document.getElementById('arrow2');
+        div.style.display = "none"; 
+        div = document.getElementById('arrow1');
+        div.style.display = "block"; 
+    } 
+    
+    $ = function (id) {
+         return document.getElementById(id);
+       };
+       
+       var show = function (id) {
+         $(id).style.display = "block";
+       };
+       var hide = function (id) {
+         $(id).style.display = "none";
+       };
+    </script>
   </head>
   <body> 
     <div class="wrapper">
@@ -139,17 +165,44 @@
       </div>  
       
      <div class="structure1">
-    <div class="photo1" id="photo1" > <img src="sticker project/14th street/2-1/structure 1.png" height="650px"></div>
     <div id="one">
+        <div class="photo1" id="photo1" > <img src="sticker project/14th street/2-1/structure 1.png" height="650px"></div>
         <div id="tow">
-            <div class="photo2"><img src="sticker project/14th street/2-1/structure 2.png" height="650px"></div>
+            <div class="photo2" id="photo2" ><img src="sticker project/14th street/2-1/structure 2.png" height="650px"></div>
         </div>
-        <button class="arrow" onclick="javascript:showDiv();"><img src="arrow.svg" height="30px"></button>
+        <button class="arrow" id="arrow1" onclick="javascript:showDiv();"><img src="arrow.svg" height="30px"></button>
+        
+        <div id="two">
+            <div id="tow2">
+                <div class="photo1"> <img src="sticker project/14th street/2-1/structure 1.png" height="650px"></div>
+            </div>
+        <button class="arrow2" id="arrow2" onclick="javascript:showDiv2();"><img src="arrow 2.svg" height="30px"></button> 
+    </div>
     </div>
     <div class="background1"> <img src="backround.svg" height="700px"></div>
      </div> 
 
-
+<div class="stickers">
+    <div href="#" onclick="show('popup')"><img src="sticker project/14th street/2-1/structure 1 stickers/allovertheplace.png" height="350px"></div>
+    <div class="popup" id="popup">
+        <a href="#" onclick="hide('popup')"><font size="150"> &#10041;</font></a>
+        <div class="sticker1"><img src="sticker project/14th street/2-1/structure 1 stickers/allovertheplace.png" height="400px"></div>
+            <div class="bodycopy">
+              <div class="titlepopup"><h1>SHE'S ALL OVER THE PLACE</h1></div> 
+              <div class="author"><h1>by Elizabeth Chonacas</h1></div> 
+              <div class="paragraph"><p>She’s All Over the Place is a new popular podcast brought to you by KYRIAKI aka Katie Elizabeth Chonacas. She’s All Over the Place podcast is focused on business in entertainment, the arts, culture and education.  Chonacas has worked in the entertainment industry now for over two decades, Chonacas brings forth energy, passion and excitement on how one can walk the path of your dreams and goals with ethics, morals and values.  Each episode will inspire you to live your own creative life, listen below on your favorite streaming service.</p></div>
+              <div class="found"><h1>FOUND:</h1></div> 
+              <div class="where"><p>on 14th between 1st and 2nd.</p></div>  
+              <div class="site"><h1>WEBSITE/SOCIALS:</h1></div> 
+              <div class="link"><a href="https://www.chonacas.com/podcast/"></a><p>https://www.chonacas.com/podcast/</p></div>  
+              
+              </div>
+            </div>
+    <div> <img src="sticker project/14th street/2-1/structure 1 stickers/bendandblaze.png"height="350px"></div>
+    <div> <img src="sticker project/14th street/2-1/structure 1 stickers/kingdao.png"height="350px"></div>
+    <div> <img src="sticker project/14th street/2-1/structure 2 stickers/hollyjane.png"height="350px"></div>
+    <div> <img src="sticker project/14th street/2-1/structure 2 stickers/pearl.png"height="300px"></div>
+</div>
 
 </body>
 </html> 

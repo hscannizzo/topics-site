@@ -119,3 +119,148 @@ body {
           #tow {
         display: none; 
           }
+
+          .arrow2 {
+            margin-top: -26%;
+            margin-left: 5%;
+            position: absolute;
+            background-color: transparent;
+            border: transparent;
+            display: none;
+          }
+
+          #tow2 {
+        display: none; 
+          }
+
+          .stickers {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            position: absolute;
+            margin-left: 40%;
+            margin-top: -50%;
+            gap: 20px;
+            gap: 20px 40px; /* row-gap column gap */
+            row-gap: 30px;
+            column-gap: 40px;
+          }
+    
+        .stickers > div {
+        align-items: right;
+        justify-content: end;
+          }
+
+          .popup {
+            display: none;
+            position: fixed;
+            padding: 10px;
+            width: 980px;
+            left: 22%;
+            margin-left: -1%;
+            height: 680px;
+            top: 20%;
+            margin-top: -100px;
+        background-color: #FFEC90;
+            z-index: 20;
+            overflow-x: hidden;
+            overflow-y: auto;
+            
+          }
+          
+          #popup:after {
+            position: fixed;
+            content: "";
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -2;
+          }
+          
+          #popup:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #FFEC90;
+            z-index: -1;
+          }
+
+          .titlepopup {
+            font-family: "futura-pt", sans-serif;
+            font-weight: 700;
+            font-style: normal;  
+            font-size: 20px;
+            position: absolute;
+            margin-top: -45%;
+            margin-left: 40%;
+        }
+        .author {
+            font-family: "futura-pt", sans-serif;
+            font-weight: 700;
+            font-style: normal;  
+            font-size: 12px;
+            position: absolute;
+            margin-top: -39%;
+            margin-left: 64%;
+        }
+        .paragraph {
+            font-family: "futura-pt", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        margin-top: -35%;
+        margin-left: 40%;
+        margin-right: 10%;
+        text-align: justify;
+        }
+
+
+        .found {
+            font-family: "futura-pt", sans-serif;
+            font-weight: 700;
+            font-style: normal;  
+            font-size: 20px;
+            position: absolute;
+          margin-top: -4%;
+        }
+
+        .where {
+            font-family: "futura-pt", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 0%;
+
+        text-align: justify;
+        }
+
+
+
+        .site {
+            font-family: "futura-pt", sans-serif;
+            font-weight: 700;
+            font-style: normal;  
+            font-size: 20px;
+            position: absolute;
+          margin-top: 8%;
+        }
+
+        .link {
+            font-family: "futura-pt", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 0%;
+
+        text-align: justify;
+        }
