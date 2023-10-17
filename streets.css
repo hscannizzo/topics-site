@@ -1,0 +1,217 @@
+body {
+    background-color: #FFD400;
+    }
+    
+    
+    
+    .wrapper {
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 0%;
+      }
+      
+      .marquee {
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        animation: marquee 10s linear infinite;
+        font-family: "relaxia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+      }
+      
+      .marquee p {
+        display: inline-block;
+      }
+      
+      @keyframes marquee {
+        0% {
+          transform: translate3d(0, 0, 0);
+        }
+        100% {
+          transform: translate3d(-50%, 0, 0);
+        }
+      }
+    
+      .wrapper2 {
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 41%;
+      }
+    
+      .marquee2 {
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        animation: marquee 10s linear infinite;
+        font-family: "relaxia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+      }
+      
+      .marquee2 p {
+        display: inline-block;
+      }
+      
+      @keyframes marquee2 {
+        0% {
+          transform: translate3d(0, 0, 0);
+        }
+        100% {
+          transform: translate3d(-50%, 0, 0);
+        }
+      }
+
+    .backarrow {
+     margin-left: 2%;   
+     font-size: 60px;
+    }
+    a:link {
+        color: black;
+        text-decoration: none;
+    
+      }
+      
+      /* visited link */
+      a:visited {
+        color: black;
+        text-decoration: none;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: white;
+        text-decoration: none;
+    
+      }
+      
+      /* selected link */
+      a:active {
+        color: white;
+        text-decoration: none;
+    
+      }
+
+      .num14 {
+        font-family: 'Planet Kosmos', sans-serif;
+        color: white;
+        font-size: 150px;
+
+        margin-left: 5%;
+        margin-top: 25%;
+        position: absolute; 
+      }
+      .num15 {
+        font-family: 'Planet Kosmos', sans-serif;
+        color: white;
+        font-size: 150px;
+
+        margin-left: 30%;
+        margin-top: -5%;
+        position: absolute; 
+      }
+      .num16 {
+        font-family: 'Planet Kosmos', sans-serif;
+        color: white;
+        font-size: 150px;
+
+        margin-left: 55%;
+        margin-top: 25%;
+        position: absolute; 
+      }
+      .num17 {
+        font-family: 'Planet Kosmos', sans-serif;
+        color: white;
+        font-size: 150px;
+
+        margin-left: 80%;
+        margin-top: -5%;
+        position: absolute; 
+      }
+
+      .group14 {
+        position: relative;
+
+      }
+      
+      .pic14 {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        margin-left: 4%;
+      
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+      }
+      
+      .group14:hover .pic14 {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .group15 {
+        position: relative;
+
+      }
+      
+      .pic15 {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        margin-left: 20%;
+      
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+      }
+      
+      .group15:hover .pic15 {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .group16 {
+        position: relative;
+
+      }
+      
+      .pic16 {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        margin-left: 41%;
+      
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+      }
+      
+      .group16:hover .pic16 {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .group17 {
+        position: relative;
+
+      }
+      
+      .pic17 {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        margin-left: 74%;
+        margin-top: 3%;
+      
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+      }
+      
+      .group17:hover .pic17 {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      
+
+      

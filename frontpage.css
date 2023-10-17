@@ -3,5 +3,144 @@ background-color: #FFD400;
 }
 
 .title {
-
+    font-family: 'Planet Kosmos', sans-serif;
+    color: white;
+    font-size: 150px;
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
+
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 6%;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    font-family: "relaxia", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+  }
+  
+  .marquee p {
+    display: inline-block;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  .wrapper2 {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: -59%;
+  }
+
+  .marquee2 {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    font-family: "relaxia", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+  }
+  
+  .marquee2 p {
+    display: inline-block;
+  }
+  
+  @keyframes marquee2 {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+.grow {
+    margin-left: 55%;
+    margin-top: 5%;
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.3); 
+}
+
+
+.stick1 {
+    margin-left: 44vw;
+margin-top: -80vh;
+position: absolute;
+}
+.stick2 {
+    margin-left: 50vw;
+margin-top: -35vh;
+position: absolute;
+}
+.stick3 {
+    margin-left: 90vw;
+margin-top: -95vh;
+position: absolute;
+}
+.stick4 {
+    margin-left: 27vw;
+margin-top: -85vh;
+position: absolute;
+}
+.stick5 {
+    margin-left: 5vw;
+margin-top: -20vh;
+position: absolute;
+}
+.stick6 {
+    margin-left: 80vw;
+margin-top: -30vh;
+position: absolute;
+}
+
+.question {
+    font-family: 'Planet Kosmos', sans-serif;
+    color: white;
+    font-size: 50px;  
+    margin-left: 47vw;
+    margin-top: -75vh;
+    position: absolute;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FFEC90;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
