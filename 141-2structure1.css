@@ -95,10 +95,27 @@ body {
             margin-top: -45%;
             margin-left: 6%;
           }
+          .photo2 {
+            position: absolute;
+            margin-top: -45%;
+            margin-left: 6%;
+          }
 
           .background1 {
             margin-top: -47%;
             position: absolute;
             margin-left: 8%;
             z-index: -1;
+          }
+
+          .arrow {
+            margin-top: -26%;
+            margin-left: 26%;
+            position: absolute;
+            background-color: transparent;
+            border: transparent;
+          }
+
+          #tow {
+        display: none; 
           }

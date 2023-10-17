@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="141-2structure1.css" type="text/css"/>
       <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
       <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <script>function showDiv() {
+        div = document.getElementById('tow');
+        div.style.display = "block";
+        div = document.getElementById('photo1');
+        div.style.display = "none"; 
+    }</script>
   </head>
   <body> 
     <div class="wrapper">
@@ -133,9 +139,17 @@
       </div>  
       
      <div class="structure1">
-    <div class="photo1"> <img src="sticker project/14th street/2-1/structure 1.png" height="650px"></div>
+    <div class="photo1" id="photo1" > <img src="sticker project/14th street/2-1/structure 1.png" height="650px"></div>
+    <div id="one">
+        <div id="tow">
+            <div class="photo2"><img src="sticker project/14th street/2-1/structure 2.png" height="650px"></div>
+        </div>
+        <button class="arrow" onclick="javascript:showDiv();"><img src="arrow.svg" height="30px"></button>
+    </div>
     <div class="background1"> <img src="backround.svg" height="700px"></div>
      </div> 
+
+
 
 </body>
 </html> 
