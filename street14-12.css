@@ -96,6 +96,67 @@ body {
             flex-direction: row;
             align-items: center;
             position: absolute;
-            
+           margin-top: 2%;
+            margin-left: -2%;
          
          }
+
+         .background1 {
+        z-index: -1;
+        position: absolute;
+        margin-left: 3%;
+        margin-top: -44%;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .8s, visibility .8s;
+      }
+
+      .structurecontainer1:hover .background1 {
+        visibility: visible;
+        opacity: 1;
+          }   
+
+         .background2 {
+            z-index: -1;
+            position: absolute;
+            margin-left: 4%;
+            margin-top: -44%;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity .8s, visibility .8s;
+          }
+    
+          .structurecontainer2:hover .background2 {
+            visibility: visible;
+            opacity: 1;
+              }  
+
+             .background3 {
+                z-index: -1;
+                position: absolute;
+                margin-left: 4%;
+                margin-top: -44%;
+                visibility: hidden;
+                opacity: 0;
+                transition: opacity .8s, visibility .8s;
+              }
+        
+              .structurecontainer3:hover .background3 {
+                visibility: visible;
+                opacity: 1;
+                  }  
+
+                 .background4 {
+                    z-index: -1;
+                    position: absolute;
+                    margin-left: 2%;
+                    margin-top: -44%;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: opacity .8s, visibility .8s;
+                  }
+            
+                  .structurecontainer4:hover .background4 {
+                    visibility: visible;
+                    opacity: 1;
+                      }  

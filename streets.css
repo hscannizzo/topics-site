@@ -201,7 +201,7 @@ body {
         visibility: hidden;
         opacity: 0;
         margin-left: 74%;
-        margin-top: 3%;
+        margin-top: 5%;
       
         /* transition effect. not necessary */
         transition: opacity .2s, visibility .2s;

@@ -1,0 +1,104 @@
+body {
+    background-color: #FFD400;
+    }
+    .backarrow {
+        margin-left: 2%;   
+        font-size: 60px;
+       }
+       a:link {
+           color: black;
+           text-decoration: none;
+       
+         }
+         
+         /* visited link */
+         a:visited {
+           color: black;
+           text-decoration: none;
+         }
+         
+         /* mouse over link */
+         a:hover {
+           color: white;
+           text-decoration: none;
+       
+         }
+         
+         /* selected link */
+         a:active {
+           color: white;
+           text-decoration: none;
+       
+         }  
+         .wrapper {
+            max-width: 100%;
+            overflow: hidden;
+            margin-top: 0%;
+          }
+          
+          .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            animation: marquee 10s linear infinite;
+            font-family: "relaxia", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+          }
+          
+          .marquee p {
+            display: inline-block;
+          }
+          
+          @keyframes marquee {
+            0% {
+              transform: translate3d(0, 0, 0);
+            }
+            100% {
+              transform: translate3d(-50%, 0, 0);
+            }
+          }
+        
+          .wrapper2 {
+            max-width: 100%;
+            overflow: hidden;
+            margin-top: 42%;
+          }
+        
+          .marquee2 {
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            animation: marquee 10s linear infinite;
+            font-family: "relaxia", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+          }
+          
+          .marquee2 p {
+            display: inline-block;
+          }
+          
+          @keyframes marquee2 {
+            0% {
+              transform: translate3d(0, 0, 0);
+            }
+            100% {
+              transform: translate3d(-50%, 0, 0);
+            }
+          }
+
+          .photo1 {
+            position: absolute;
+            margin-top: -45%;
+            margin-left: 6%;
+          }
+
+          .background1 {
+            margin-top: -47%;
+            position: absolute;
+            margin-left: 8%;
+            z-index: -1;
+          }
